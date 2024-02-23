@@ -16,7 +16,7 @@ a{
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     font-weight: 900;
     padding: 15px;
 }
@@ -33,7 +33,7 @@ a{
     background-color: #f00;
     color: #fff;
     font-weight: 900;
-    border-radius: 15px;
+    border-radius: 45px;
     padding: 8px;
 }
 
@@ -42,7 +42,7 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 20px;
     font-weight: 900;
     color: #000;
@@ -69,8 +69,8 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     font-size: 15px;
 }
 .header-logo > a > img{
@@ -178,7 +178,8 @@ footer{
     padding-top: .2em;
 }
 .footer-titulo-institucional > h2,
-.footer-icones > .footer-wrap > h2{
+.footer-icones > .footer-wrap > h2,
+.footer-seguranca-site > h2{
     font-size: 1em;
     font-weight: 900;
 }
@@ -208,11 +209,20 @@ footer{
     width: 100%;
 }
 .footer-institucional,
-.footer-icones{
-    margin-top: 1em;
+.footer-icones,
+.footer-seguranca-site{
+    margin-top: 3em;
 }
 
 .footer-forma-pagamento > img,
 .footer-formas-envio > img{
     width: 90%;
+}
+.footer-seguranca-img > img{
+    width: 30%;
+}
+.footer-comunicacao > p{
+    margin: 0;
+    font-size: .8em;
+    font-weight: 900;
 }
