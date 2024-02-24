@@ -47,6 +47,13 @@
     ::placeholder{
         font-size: .7em;
     }
+    .header-menu > nav > ul > li{
+        display: none;
+    }
+    .header-menu > nav > ul > li:first-child{
+        display: block;
+    }
+
 
 
 }
@@ -76,5 +83,11 @@
     }
     ::placeholder{
         font-size: .7em;
+    }
+    .header-menu > nav > ul > li{
+        display: none;
+    }
+    .header-menu > nav > ul > li:first-child{
+        display: block;
     }
 }
