@@ -16,5 +16,10 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 920px) {
-
+    .header-pedido-urgente{
+        align-items: center !important;
+    }
+    .header-link-confira{
+        width: 10em;
+    }
 }
