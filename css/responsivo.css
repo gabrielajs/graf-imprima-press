@@ -53,9 +53,45 @@
     .header-menu > nav > ul > li:first-child{
         display: block;
     }
-
-
-
+    .section-calendario > a > img{
+        width: 100%;
+    }
+    .section-titulo > hr {
+        width: 24%;
+    }
+    .section-produtos-mais-vendidos > .section-titulo > h1 {
+        font-size: 1.1875rem;
+    }
+    .section-ponto-venda > .section-titulo > h1,
+    .section-encante-seus-clientes > .section-titulo > h1{
+        font-size: 0.8125rem;
+    }
+    .footer-info{
+        flex-wrap: wrap;
+    }
+    .footer-info > p {
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    .footer-info > p > a{
+        font-size: 0.625rem;
+    }
+    .footer-institucional, .footer-icones, .footer-seguranca-site {
+        margin-top: 6px;
+    }
+    .footer-intitucional-info > p{
+        display: inline-block;
+        font-size: 0.625rem;
+    }
+    .footer-intitucional-info > p {
+        flex: 0 0 22%;
+    }
+    .footer-icones {
+        display: block;
+    }
+    .footer-wrap{
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 920px) {
@@ -89,5 +125,11 @@
     }
     .header-menu > nav > ul > li:first-child{
         display: block;
+    }
+    .section-calendario > a > img{
+        width: 100%;
+    }
+    .footer-info > p > a{
+        font-size: 0.75rem;
     }
 }
