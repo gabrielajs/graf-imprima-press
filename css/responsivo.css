@@ -92,6 +92,15 @@
     .footer-wrap{
         margin-bottom: 15px;
     }
+    .footer-comunicacao{
+        margin-top: 10px;
+    }
+    ul.slider-container{
+        text-align: center;
+    }
+    .section-nome-produto{
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 920px) {
@@ -131,5 +140,30 @@
     }
     .footer-info > p > a{
         font-size: 0.75rem;
+    }
+    ul.slider-container{
+        text-align: center;
+    }
+    .section-nome-produto{
+        margin-bottom: 0;
+    }
+    .footer-intitucional-info{
+        justify-content: flex-start
+    }
+    .footer-intitucional-info > p{
+        display: inline-block;
+        font-size: 0.700rem;
+    }
+    .footer-institucional, .footer-icones, .footer-seguranca-site {
+        margin-top: 1em;
+    }
+    .footer-icones {
+        display: block;
+    }
+    .footer-wrap{
+        margin-bottom: 15px;
+    }
+    .footer-comunicacao{
+        margin-top: 10px;
     }
 }
