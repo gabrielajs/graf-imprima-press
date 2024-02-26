@@ -55,9 +55,9 @@
         display: block;
         padding: 0;
     }
-    .carousel-item > a > img{
+    /* .carousel-item > a > img{
         height: 200px;
-    }
+    } */
     .destaque-img {
         display: block;
         text-align: center;
@@ -68,6 +68,10 @@
     ul.slider-container {
         width: 271px;
         margin: auto !important;
+    }
+    .slider-mobile{
+        width: 100% !important;
+        margin: 0;
     }
     .section-titulo > hr {
         width: 27%;
@@ -84,6 +88,12 @@
     }
     .section-encante-seus-clientes > .section-titulo > hr{
         width: 25%;
+    }
+    .section-carouse{
+        display: none;
+    }
+    .section-mobile{
+        display: block;
     }
     .slider-nav::after, .slider-nav::before {
         width: 1rem;

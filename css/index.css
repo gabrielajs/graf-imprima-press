@@ -148,6 +148,9 @@ a{
     font-size: 14px;
     padding-left: 0;
 }
+.section-mobile{
+    display: none;
+}
 .section-img-destaque{
     margin-top: 3em;
 }
