@@ -55,8 +55,15 @@
         display: block;
         padding: 0;
     }
+    .carousel-item > a > img{
+        height: 200px;
+    }
     .section-calendario > a > img{
         width: 100%;
+    }
+    ul.slider-container {
+        width: 271px;
+        margin: auto !important;
     }
     .section-titulo > hr {
         width: 27%;
@@ -74,9 +81,6 @@
     .section-encante-seus-clientes > .section-titulo > hr{
         width: 25%;
     }
-    /*.section-encante-seus-clientes > .section-titulo > h1{
-        font-size: 0.8125rem;
-    }*/
     .footer-info{
         flex-wrap: wrap;
     }
@@ -116,7 +120,7 @@
     .header-pedido-urgente{
         align-items: center;
         font-size: .7em;
-        padding: 0 30px;
+        padding: 2px 30px;
     }
     .header-text-pedido {
         margin-right: 15px;
@@ -150,8 +154,12 @@
     .header-menu > nav > ul > li{
         display: none;
     }
+    .menu-fixo-ul {
+        margin-bottom: 15px;
+    }
     .header-menu > nav > ul > li:first-child {
         display: block;
+        padding: 0;
     }
     .section-calendario > a > img{
         width: 100%;
@@ -159,12 +167,22 @@
     .footer-info > p > a{
         font-size: 0.75rem;
     }
-    ul.slider-container{
-        text-align: center;
+    .slider-container > ul > li{
+        text-align: left;
+    }
+    .section-produtos-mais-vendidos > .section-titulo > h1,
+    .section-ponto-venda > .section-titulo > h1,
+    .section-encante-seus-clientes > .section-titulo > h1{
+        font-size: 1em;
     }
     .section-nome-produto{
         margin-bottom: 0;
     }
+    .section-ponto-venda > .section-titulo > hr,
+    .section-encante-seus-clientes > .section-titulo > hr{
+        width: 25%;
+    }
+    
     .footer-intitucional-info{
         justify-content: flex-start
     }
