@@ -148,16 +148,15 @@ a{
     font-size: 14px;
     padding-left: 0;
 }
-
-.section-calendario {
-    display: block;
-    text-align: center;
-    margin-top: 1em;
+.section-img-destaque{
+    margin-top: 3em;
 }
-.section-calendario > a > img{
-    width: 94%;
+.destaque-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
-
 .section-titulo{
     display: flex;
     flex-direction: row;

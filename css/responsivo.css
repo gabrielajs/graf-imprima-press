@@ -58,8 +58,12 @@
     .carousel-item > a > img{
         height: 200px;
     }
-    .section-calendario > a > img{
-        width: 100%;
+    .destaque-img {
+        display: block;
+        text-align: center;
+    }
+    .destaque-img > div{
+        padding-bottom: 1em;
     }
     ul.slider-container {
         width: 271px;
@@ -80,6 +84,11 @@
     }
     .section-encante-seus-clientes > .section-titulo > hr{
         width: 25%;
+    }
+    .slider-nav::after, .slider-nav::before {
+        width: 1rem;
+        height: 1rem;
+        padding: 0.3rem;
     }
     .footer-info{
         flex-wrap: wrap;
@@ -160,9 +169,6 @@
     .header-menu > nav > ul > li:first-child {
         display: block;
         padding: 0;
-    }
-    .section-calendario > a > img{
-        width: 100%;
     }
     .footer-info > p > a{
         font-size: 0.75rem;
