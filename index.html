@@ -36,7 +36,7 @@
             <p class="header-text-pedido">Confira os impressos com entrega rápida!</p>
             <a href="#" class="header-link-confira">confira aqui ></a>
         </div>
-        <div class="header-info">
+        <div class="header-info container">
             <p class="header-text-grafica">Tudo é gráfica, tudo é GIV Online.</p>
 
             <ul class="header-menu-info">
@@ -50,7 +50,7 @@
                 <li><a href="#"><i class="fa-brands fa-instagram" title="instagram"></i></a></li>
             </ul>
         </div>
-        <div class="header-pesquisa">
+        <div class="header-pesquisa container">
             <div class="header-logo">
                 <a href="#"><img src="img/logo.png" alt="logo"></a>
             </div>
@@ -76,10 +76,10 @@
                 <span class="header-icones"><i class="fa-solid fa-cart-shopping"></i></span>
             </div>
         </div>
-        <div class="header-menu">
-            <hr>
+        <div class="header-menu" id="menu-fixo">
+            <hr id="hr-menu-fixo">
             <nav>
-                <ul>
+                <ul class="menu-fixo-ul">
                     <li>
                         <i class="fa-solid fa-bars"></i>
                         Todos os produtos
@@ -156,7 +156,7 @@
         </div>
     </header>
 
-    <section class="section-carousel">
+    <section class="section-carouse">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -185,7 +185,7 @@
           </div>
     </section>
 
-    <section class="banner-produtos-categorias">
+    <section class="banner-produtos-categorias container">
         <div class="swiffy-slider slider-item-show5 slider-item-show2-sm slider-nav-arrow slider-nav-dark slider-nav-sm slider-nav-outside slider-nav-visible slider-nav-autoplay slider-indicators-outside">
             <ul class="slider-container">
                 <li class="">
@@ -268,13 +268,13 @@
         </div>
     </section>
 
-    <section class="section-calendario">
+    <section class="container section-calendario">
         <a href="#">
             <img src="img/img-calendarios-2024.png" alt="venda calendarios 2024">
         </a>
     </section>
 
-    <section class="section-produtos-mais-vendidos">
+    <section class="section-produtos-mais-vendidos container">
         <div class="section-titulo">
             <hr>
                 <h1>Os mais vendidos</h1>
@@ -411,7 +411,7 @@
         </div>
     </section>
 
-    <section class="section-ponto-venda">
+    <section class="section-ponto-venda container">
         <div class="section-titulo">
             <hr>
                 <h1>Para o seu ponto de venda</h1>
@@ -548,7 +548,7 @@
         </div>
     </section>
 
-    <section class="section-encante-seus-clientes">
+    <section class="section-encante-seus-clientes container">
         <div class="section-titulo">
             <hr>
                 <h1>Encante seus clientes</h1>
@@ -686,13 +686,14 @@
     </section>
 
     <footer>
-        <div class="footer-info">
+        <div class="footer-info container">
             <p><a href="#">Balcões de Retirada</a></p>
             <p><a href="#">Checagem Imbatível</a></p>
             <p><a href="#">Perguntas Frequentes</a></p>
             <p><a href="#">FuturaIM na Imprensa</a></p>
             <p><a href="#">Tutoriais</a></p>
         </div>
+        <hr class="footer-hr">
         <div class="footer-institucional container">
             <div class="footer-titulo-institucional">
                 <h2>Institucional</h2>
@@ -744,8 +745,23 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <script>
+        $(function(){   
+        var nav = $('#menu-fixo');   
+        $(window).scroll(function () { 
+            if ($(this).scrollTop() > 170) { 
+                nav.addClass("menu-fixo");
+                $('body').css('padding-top', 70);
+                $("#hr-menu-fixo").remove();
+            } else { 
+                nav.removeClass("menu-fixo"); 
+                $('body').css('padding-top', 0);
+            } 
+        });  
+        });
+    </script>
 </body>
 </html>

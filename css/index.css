@@ -9,6 +9,20 @@ a{
     color: #000;
     text-decoration: none;
 }
+.menu-fixo{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all 1s;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 1px #FAFAFA;
+}
+.menu-fixo-ul{
+    margin-bottom: 0;
+}
 .header-pedido-urgente{
     background-color: #FFDD00;
     display: flex;
@@ -18,23 +32,26 @@ a{
     justify-content: center;
     align-items: baseline;
     font-weight: 900;
-    padding: 15px;
+    padding: 5px;
 }
 .header-text-pedido{
     color: #000;
     margin-right: 40px;
+    margin-bottom: 0;
 }
 .header-text-impressao{
     color: #f00;
     text-transform: uppercase;
     margin-right: 40px;
+    margin-bottom: 0;
 }
 .header-link-confira{
     background-color: #f00;
     color: #fff;
     font-weight: 900;
     border-radius: 45px;
-    padding: 8px;
+    padding: 5px;
+    font-size: 13px;
 }
 
 .header-info{
@@ -72,6 +89,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 .header-logo > a > img{
     width: 200px;
@@ -105,9 +123,6 @@ a{
 .header-icones{
     font-size: 20px;
 }
-.header-menu{
-    margin-top: 10px;
-}
 .header-menu hr{
     width: 80%;
     margin: 0 auto;
@@ -118,22 +133,28 @@ a{
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     font-size: 12px;
+    padding-left: 0;
 }
 .header-menu > nav > ul > li{
     list-style: none;
-    padding: 15px;
+    padding-bottom: 12px;
+    padding-right: 10px;
     font-weight: 700;
 }
 .header-menu > nav > ul > li:first-child{
     font-weight: 900;
     font-size: 14px;
+    padding-left: 0;
 }
 
 .section-calendario {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+}
+.section-calendario > a > img{
+    width: 94%;
 }
 
 .section-titulo{
@@ -162,9 +183,11 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #cecece;
+}
+.footer-hr{
+    margin: 0;
 }
 .footer-info > p{
     margin-top: 1em;
@@ -243,4 +266,7 @@ footer{
 }
 .section-valor-produto{
     font-weight: 900;
+}
+.footer-comunicacao {
+    margin-top: 3rem;
 }
