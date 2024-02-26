@@ -1,6 +1,7 @@
 @media(max-width: 480px) {
     .header-pedido-urgente{
         align-items: center;
+        font-size: 0.8em;
     }
     .header-text-pedido,
     .header-text-impressao{
@@ -13,7 +14,7 @@
         display: none;
     }
     .header-link-confira{
-        width: 10em;
+        width: 7em;
     }
     .header-info{
         padding: 1em 0;
@@ -52,20 +53,30 @@
     }
     .header-menu > nav > ul > li:first-child{
         display: block;
+        padding: 0;
     }
     .section-calendario > a > img{
         width: 100%;
     }
     .section-titulo > hr {
-        width: 24%;
+        width: 27%;
     }
     .section-produtos-mais-vendidos > .section-titulo > h1 {
-        font-size: 1.1875rem;
+        font-size: 1rem;
+    }
+    .section-ponto-venda > .section-titulo > hr{
+        width: 20%;
     }
     .section-ponto-venda > .section-titulo > h1,
     .section-encante-seus-clientes > .section-titulo > h1{
-        font-size: 0.8125rem;
+        font-size: 0.875rem;
     }
+    .section-encante-seus-clientes > .section-titulo > hr{
+        width: 25%;
+    }
+    /*.section-encante-seus-clientes > .section-titulo > h1{
+        font-size: 0.8125rem;
+    }*/
     .footer-info{
         flex-wrap: wrap;
     }
@@ -95,9 +106,7 @@
     .footer-comunicacao{
         margin-top: 10px;
     }
-    ul.slider-container{
-        text-align: center;
-    }
+    
     .section-nome-produto{
         margin-bottom: 0;
     }
@@ -106,9 +115,18 @@
 @media screen and (min-width: 600px) and (max-width: 920px) {
     .header-pedido-urgente{
         align-items: center;
+        font-size: .7em;
+        padding: 0 30px;
+    }
+    .header-text-pedido {
+        margin-right: 15px;
     }
     .header-link-confira{
-        width: 10em;
+        width: 8em;
+        text-align: center;
+    }
+    .header-info{
+        padding: 10px 0;
     }
     .header-logo {
         margin-right: 0;
@@ -132,7 +150,7 @@
     .header-menu > nav > ul > li{
         display: none;
     }
-    .header-menu > nav > ul > li:first-child{
+    .header-menu > nav > ul > li:first-child {
         display: block;
     }
     .section-calendario > a > img{

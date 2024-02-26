@@ -152,6 +152,7 @@ a{
 .section-calendario {
     display: block;
     text-align: center;
+    margin-top: 1em;
 }
 .section-calendario > a > img{
     width: 94%;
@@ -269,4 +270,11 @@ footer{
 }
 .footer-comunicacao {
     margin-top: 3rem;
+}
+.img-produtos-categoria{
+    max-width: 100%;
+}
+.color{
+    background-color: red;
+    width: 200px;
 }
