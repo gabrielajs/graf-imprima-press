@@ -23,6 +23,9 @@ a{
 .menu-fixo-ul{
     margin-bottom: 0;
 }
+.menu-fixo-ul > li{
+    padding-bottom: 3px !important;
+}
 .header-pedido-urgente{
     background-color: #FFDD00;
     display: flex;
