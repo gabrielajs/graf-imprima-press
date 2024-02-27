@@ -156,9 +156,18 @@ a{
 }
 .destaque-img {
     display: flex;
-    flex-direction: row;
+    margin-left: 2.25em;
+    margin-right: 1.25em;    
+    /* flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-around; */
+}
+.bg-container{
+    margin-right: 1em;
+}
+.bg-container > a > img{
+    height: 21.875em;
+    width: 100%;
 }
 .section-titulo{
     display: flex;
