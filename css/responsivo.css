@@ -129,7 +129,15 @@
     .footer-comunicacao{
         margin-top: 10px;
     }
-    
+    .footer-finish{
+        display: block;
+    }
+    .footer-finish > .copyright{
+        float: none !important;
+    }
+    .footer-finish > .endereco {
+        text-align: left;
+    }
     .section-nome-produto{
         margin-bottom: 0;
     }

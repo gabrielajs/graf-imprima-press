@@ -280,3 +280,14 @@ footer{
     background-color: red;
     width: 200px;
 }
+.footer-finish > p{
+    font-size: .7em;
+    margin-bottom: 0;
+    padding-bottom: 0.9em;
+}
+.footer-finish > .copyright{
+    float: left;
+}
+.footer-finish > .endereco{
+    text-align: right;
+}
