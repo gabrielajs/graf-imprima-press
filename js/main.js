@@ -25,15 +25,3 @@ function adicionaOuRemoveClasseResponsiva() {
 
 window.addEventListener('resize', adicionaOuRemoveClasseResponsiva);
 adicionaOuRemoveClasseResponsiva();
-
-
-
-function removeClasseContainer() {
-    var con = $('body');
-    if($(this).width() <= 480){
-        con.removeClass('container');
-    }
-}
-
-window.addEventListener('resize', removeClasseContainer);
-removeClasseContainer();

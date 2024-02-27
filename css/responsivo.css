@@ -1,4 +1,10 @@
 @media(max-width: 480px) {
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
     .header-pedido-urgente{
         align-items: center;
         font-size: 0.8em;
@@ -66,8 +72,9 @@
         padding-bottom: 1em;
     }
     ul.slider-container {
-        width: 271px;
-        margin: auto !important;
+        width: 100%;
+        padding: 0 1em;;
+        /*margin: auto !important;*/
     }
     .slider-mobile{
         width: 100% !important;
@@ -100,6 +107,23 @@
         height: 1rem;
         padding: 0.3rem;
     }
+    .destaque-img {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+    .bg-container {
+        margin-right: 0;
+    }
+
+    .slider-item-reveal,
+    .container-footer {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .img-produtos-categoria {
+        width: 100%;
+    }
+
     .bg-container > a > img {
         height: auto;
     }
