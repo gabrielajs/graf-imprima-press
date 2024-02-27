@@ -20,7 +20,8 @@
         display: none;
     }
     .header-link-confira{
-        width: 7em;
+        width: 8em;
+        text-align: center;
     }
     .header-info{
         padding: 1em 0;
